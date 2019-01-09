@@ -1,0 +1,12 @@
+Given a set of invoice pdfs and OCR output, you need to extract important business fields and invoice line items from the OCR output.
+Also add confidence mechanism to each extracted data item.
+Please provide a possible solution or a high-level approach.
+Optionally, you may also evaluate a training mechanism so that with each learning/extraction/processing, system gets more accurate/gets better confidence.
+
+Important business fields - Invoice Number, Invoice Date, Purchase Order Number, Line Item details (quantity, sku, name, price, etc), Invoice Total, Payment terms.
+
+OCR Output is provided in the OCR_Output_For_Sample_Invoices folder. 
+Correlate OCR file for each pdf, with its naming convention as <pdf_file_name>.pdf.xml
+Eg: 
+PDF file :: 1_100A 39015.pdf 
+OCR file :: 1_100A 39015.pdf.xml
